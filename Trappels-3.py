@@ -726,7 +726,8 @@ class encypthion_class:
                                             times_compress+=1
                                             
                                             if file==0:
-                                                long2=len(Calculus)
+                                                    
+                                                
                                                 #print(long2)
                                                 block2=0
                                                 blocks2=0
@@ -741,6 +742,22 @@ class encypthion_class:
                                                 res5=0
                                                 limit_find=0
                                                 Combination5=0
+                                                Calculus=size_data3[block:block+1]
+                                                if Calculus[0:1]=="1":
+                                                    Calculus=size_data3[block:block+49]
+                                                    block+=49
+                                                    Calculus=Calculus[1:]
+                                                    long2=len(Calculus)
+                                                    
+                                                if Calculus[0:1]=="0":
+                                                    
+                                                    Calculus=size_data3[block:block+47]
+                                                    long2=len(Calculus)
+                                                    block+=47
+                                                    blocks=47
+                                                    
+                                                    
+                                                    
                                                 while Combination5!=1:
                                                     
                                                 
