@@ -205,7 +205,7 @@ class encypthion_class:
                                         
 
                                         
-                                        Caculus_oct3="1001"
+                                        
                                         
                                     
                                     
