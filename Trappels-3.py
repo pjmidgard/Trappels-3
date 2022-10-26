@@ -265,6 +265,10 @@ class encypthion_class:
                                                 limit_find=0
                                                 Combination5=0
                                                 Combination4=-1
+                                                Combination3=""
+                                                Combination6=""
+                                                Combination8=""
+                                                Combination10=""
                                                 Combination1=-1
                                                 Combination7=-1
                                                 Combination9=-1
@@ -790,7 +794,8 @@ class encypthion_class:
                                             
                                             Combination=-1
                                             Combination1=-1
-                                            block=block+blocks
+                                            
+                                        
                                             times_compress+=1
                                             
                                             if file==0:
@@ -815,6 +820,11 @@ class encypthion_class:
                                                 Combination1=-1
                                                 Combination7=-1
                                                 Combination9=-1
+                                                Combination3=""
+                                                Combination6=""
+                                                Combination8=""
+                                                Combination10=""
+                                                blocks=47
                                                 Calculus=size_data3[block:block+1]
                                                 if Calculus[0:1]=="1":
                                                     Calculus=size_data3[block:block+49]
