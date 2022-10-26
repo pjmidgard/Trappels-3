@@ -960,7 +960,7 @@ class encypthion_class:
                                                                         else:
                                                                              if Combination9<=(2**46):
                                                                                   Combination9+=1
-                                                                                  if  Combination9!=Calculus:
+                                                                                  if  Combination9!=2**46:
                                                                                           Combination10=format(Combination9,'046b')
                                                                                   res9="0"+Combination10
                                                                                   res5=1
