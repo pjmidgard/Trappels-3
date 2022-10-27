@@ -282,7 +282,7 @@ class encypthion_class:
                                                     if Combination==(2**48)-1:
                                                         Combination5=1
                                                         
-                                                    if Combination1==(2**46)-1 and Combination4==(2**46)-1 and Combination7==(2**46)-1 and Combination9==(2**46)-1: 
+                                                    if Combination1==(2**46)-1 and Combination4==(2**46)-1 and Combination7==(2**46)-1: 
                                                         Combination5=1
                                                         
                                                     
@@ -844,7 +844,7 @@ class encypthion_class:
                                                             Combination5=1
 
 
-                                                        if Combination1==(2**46)-1 and Combination4==(2**46)-1 and Combination7==(2**46)-1 and Combination9==(2**46)-1: 
+                                                        if Combination1==(2**46)-1 and Combination4==(2**46)-1 and Combination7==(2**46)-1: 
                                                             Combination5=1
 
 
