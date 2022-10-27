@@ -358,7 +358,7 @@ class encypthion_class:
                                                                         
                                         
                                         
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Calculus[Times:Times+4]==Calculus[Times4:Times4+4] and Calculus[Times:Times+4]==Calculus[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and Times4!=Times5 and Times!=Times5 and Times3!=Times5 and  Times2!=Times5 and res==0 and long2==blocks:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Calculus[Times:Times+4]==Calculus[Times4:Times4+4] and Calculus[Times:Times+4]==Calculus[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and res==0 and long2==blocks:
                                                                             res3=1
 
                                                         
@@ -918,7 +918,7 @@ class encypthion_class:
 
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and Times4!=Times5 and Times!=Times5 and Times3!=Times5 and  Times2!=Times5 and res==0 and long2==blocks:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]    and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and res==0 and long2==blocks:
                                                                                 res3=1
 
 
