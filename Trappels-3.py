@@ -346,7 +346,7 @@ class encypthion_class:
                                                                             res1=1
                                                     
             
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination3==Calculus and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination1!=2**46:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination2==Calculus and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination1!=2**46:
                                                                 
                                                                 
                                                                             res9="0"+Combination3
@@ -371,7 +371,7 @@ class encypthion_class:
                                                                             res1=1
                                                     
             
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Combination6==Calculus and Combination1<=(2**46)-1 and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Combination2==Calculus and Combination1<=(2**46)-1 and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
                                                                 
                                                                 
                                                                             res9="0"+Combination6
@@ -385,20 +385,19 @@ class encypthion_class:
                                                                             res4=1
                                         
                                                                    
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination8==Calculus and Combination7<=(2**46) and Calculus[Times:Times+4]==Calculus[Times4:Times4+4] and Calculus[Times:Times+4]==Calculus[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks and Combination7!=2**46:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination2==Calculus and Combination7<=(2**46) and Calculus[Times:Times+4]==Calculus[Times4:Times4+4] and Calculus[Times:Times+4]==Calculus[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks and Combination7!=2**46:
                                                                             res9="0"+Combination8
                                                                             res5=1
                                                                             res1=1
                                                                 
                                                                         else:
-                                                                          if Combination9<=(2**46):
-                                                                              Combination9+=1
-                                                                              if Combination10!=Calculus:
-                                                                                              Combination10=format(Combination9,'046b')
-                                                                              res9="0"+Combination10
-                                                                              res5=1
-                                                                              res1=1
-                                                                
+                                                                             if Combination9<=(2**46):
+                                                                                  Combination9+=1
+                                                                                  if  Combination9!=2**46 and   Calculus==Combination2 and long2==blocks and res5==0:
+                                                                                          Combination10=format(Combination9,'046b')
+                                                                                          res9="0"+Combination10
+                                                                                          res5=1
+                                                                                          res1=1
                                                                          
                                                                         
                                                                         
@@ -913,7 +912,7 @@ class encypthion_class:
                                                                             res1=1
                                                     
             
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination3==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
+                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
                                                                 
                                                                 
                                                                             res9="0"+Combination3
@@ -938,7 +937,7 @@ class encypthion_class:
                                                                             res1=1
                                                     
             
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination6==Calculus and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
+                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
                                                                 
                                                                 
                                                                             res9="0"+Combination6
@@ -952,7 +951,7 @@ class encypthion_class:
                                                                             res4=1
                                         
                                                                    
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination8==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks and Combination7!=2**46:
+                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination8==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Caculus and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks and Combination7!=2**46:
                                                                             res9="0"+Combination8
                                                                             res5=1
                                                                             res1=1
@@ -960,11 +959,11 @@ class encypthion_class:
                                                                         else:
                                                                              if Combination9<=(2**46):
                                                                                   Combination9+=1
-                                                                                  if  Combination9!=2**46:
+                                                                                  if  Combination9!=2**46 and   Combination2==Caculus and long2==blocks and res5==0:
                                                                                           Combination10=format(Combination9,'046b')
-                                                                                  res9="0"+Combination10
-                                                                                  res5=1
-                                                                                  res1=1
+                                                                                          res9="0"+Combination10
+                                                                                          res5=1
+                                                                                          res1=1
                                                                 
                                                                          
                                                                         
