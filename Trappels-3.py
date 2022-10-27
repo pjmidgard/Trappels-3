@@ -390,14 +390,7 @@ class encypthion_class:
                                                                             res5=1
                                                                             res1=1
                                                                 
-                                                                        else:
-                                                                             if Combination9<=(2**46):
-                                                                                  Combination9+=1
-                                                                                  if  Combination9!=2**46 and   Calculus==Combination2 and long2==blocks and res5==0:
-                                                                                          Combination10=format(Combination9,'046b')
-                                                                                          res9="0"+Combination10
-                                                                                          res5=1
-                                                                                          res1=1
+                                                                        
                                                                          
                                                                         
                                                                         
@@ -956,15 +949,7 @@ class encypthion_class:
                                                                                 res5=1
                                                                                 res1=1
 
-                                                                            else:
-                                                                                 if Combination9<=(2**46):
-                                                                                      Combination9+=1
-                                                                                      Combination10=format(Combination9,'046b')
-                                                                                      if  Combination9!=2**46 and   Combination2==Combination10 and long2==blocks and res5==0:
-                                                                                             
-                                                                                              res9="0"+Combination10
-                                                                                              res5=1
-                                                                                              res1=1
+                                                                           
 
 
 
