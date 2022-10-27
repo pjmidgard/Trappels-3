@@ -844,133 +844,133 @@ class encypthion_class:
                                                     blocks=47
                                                     
                                                   
-                                                while Combination5!=1:
-                                                    
-                                                
-                                                    if Combination==(2**48)-1:
-                                                        Combination5=1
-                                                   
-                                                        
-                                                    if Combination1==(2**46)-1 and Combination4==(2**46)-1 and Combination7==(2**46)-1 and Combination9==(2**46)-1: 
-                                                        Combination5=1
-                                                        
-                                                    
-                                                        
-                                                    
-                                                    Times=-4
-                                                    Times2=-4
-                                                    Times3=-4
-                                                    Times4=-4
-                                                    Times5=-4
-                                                        
-                                                    Combination+=1
-                                                    Combination2=format(Combination,'048b')
-                                                    
-                                                    res1=0
-                                                    res2=0
-                                                    res3=0
-                                                    res4=0
-                                                    
-                                                    
-                                                    while Times5!=44:
-                                                        Times5+=4
-                                                        Times4=-4
-                                                        Times3=-4
-                                                        Times2=-4
-                                                        Times=-4
+                                                    while Combination5!=1:
 
-                                                        while Times4!=44:
-                                                            Times4+=4
+
+                                                        if Combination==(2**48)-1:
+                                                            Combination5=1
+
+
+                                                        if Combination1==(2**46)-1 and Combination4==(2**46)-1 and Combination7==(2**46)-1 and Combination9==(2**46)-1: 
+                                                            Combination5=1
+
+
+
+
+                                                        Times=-4
+                                                        Times2=-4
+                                                        Times3=-4
+                                                        Times4=-4
+                                                        Times5=-4
+
+                                                        Combination+=1
+                                                        Combination2=format(Combination,'048b')
+
+                                                        res1=0
+                                                        res2=0
+                                                        res3=0
+                                                        res4=0
+
+
+                                                        while Times5!=44:
+                                                            Times5+=4
+                                                            Times4=-4
                                                             Times3=-4
                                                             Times2=-4
                                                             Times=-4
-                                                
-                                                            while Times3!=44:
-                                                                Times3+=4
+
+                                                            while Times4!=44:
+                                                                Times4+=4
+                                                                Times3=-4
                                                                 Times2=-4
                                                                 Times=-4
-                                                    
-                                                                while Times!=44:
-                                                                    Times+=4
+
+                                                                while Times3!=44:
+                                                                    Times3+=4
                                                                     Times2=-4
-                                                
-                                                                    while Times2!=44:
-                                                                        Times2+=4
-                                                            
-                                                                        if Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and Times!=Times2 and Times!=Times3 and  res2==0 and long2==blocks:
-                                                                           res2=1
+                                                                    Times=-4
 
-                                                                
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and  Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks:
-                                                                            Combination1+=1
-                                                                            Combination3=format(Combination1,'046b')
-                                                                
-                                                                            res2=1
+                                                                    while Times!=44:
+                                                                        Times+=4
+                                                                        Times2=-4
 
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
-                                                                
-                                                                            res1=1
-                                                    
-            
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
-                                                                
-                                                                
-                                                                            res9="0"+Combination3
-                                                                            res5=1
-                                                                            res1=1
-                                        
-                                                                        
-                                        
-                                        
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and Times4!=Times5 and Times!=Times5 and Times3!=Times5 and  Times2!=Times5 and res==0 and long2==blocks:
-                                                                            res3=1
+                                                                        while Times2!=44:
+                                                                            Times2+=4
 
-                                                                
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and  Combination4<=(2**46) and res3==0 and  Times2!=Times and long2==blocks:
-                                                                            Combination4+=1
-                                                                            Combination6=format(Combination4,'046b')
-                                                                
-                                                                            res3=1
+                                                                            if Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and Times!=Times2 and Times!=Times3 and  res2==0 and long2==blocks:
+                                                                               res2=1
 
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
-                                                                
-                                                                            res1=1
-                                                    
-            
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
-                                                                
-                                                                
-                                                                            res9="0"+Combination6
-                                                                            res5=1
-                                                                            res1=1
-                                        
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination7<=(2**46) and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks:
-                                                                            Combination7+=1
-                                                                            Combination8=format(Combination7,'046b')
-                                                                
-                                                                            res4=1
-                                        
-                                                                   
-                                                                        elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination8==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Caculus and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks and Combination7!=2**46:
-                                                                            res9="0"+Combination8
-                                                                            res5=1
-                                                                            res1=1
-                                                                
-                                                                        else:
-                                                                             if Combination9<=(2**46):
-                                                                                  Combination9+=1
-                                                                                  if  Combination9!=2**46 and   Combination2==Caculus and long2==blocks and res5==0:
-                                                                                          Combination10=format(Combination9,'046b')
-                                                                                          res9="0"+Combination10
-                                                                                          res5=1
-                                                                                          res1=1
-                                                                
-                                                                         
-                                                                        
-                                                                            
-                                                                      
-                                                                     
-                                                             
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and  Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks:
+                                                                                Combination1+=1
+                                                                                Combination3=format(Combination1,'046b')
+
+                                                                                res2=1
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
+
+                                                                                res1=1
+
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
+
+
+                                                                                res9="0"+Combination3
+                                                                                res5=1
+                                                                                res1=1
+
+
+
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and Times4!=Times5 and Times!=Times5 and Times3!=Times5 and  Times2!=Times5 and res==0 and long2==blocks:
+                                                                                res3=1
+
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and  Combination4<=(2**46) and res3==0 and  Times2!=Times and long2==blocks:
+                                                                                Combination4+=1
+                                                                                Combination6=format(Combination4,'046b')
+
+                                                                                res3=1
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
+
+                                                                                res1=1
+
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
+
+
+                                                                                res9="0"+Combination6
+                                                                                res5=1
+                                                                                res1=1
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination7<=(2**46) and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks:
+                                                                                Combination7+=1
+                                                                                Combination8=format(Combination7,'046b')
+
+                                                                                res4=1
+
+
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination8==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Caculus and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times!=Times2 and Times!=Times3 and  res4==0 and long2==blocks and Combination7!=2**46:
+                                                                                res9="0"+Combination8
+                                                                                res5=1
+                                                                                res1=1
+
+                                                                            else:
+                                                                                 if Combination9<=(2**46):
+                                                                                      Combination9+=1
+                                                                                      if  Combination9!=2**46 and   Combination2==Caculus and long2==blocks and res5==0:
+                                                                                              Combination10=format(Combination9,'046b')
+                                                                                              res9="0"+Combination10
+                                                                                              res5=1
+                                                                                              res1=1
+
+
+
+
+
+
+
                                                 if res5==1:              
                                                     res+=res9
                                                     resf+=1
