@@ -1,4 +1,4 @@
-#Trappels-3
+#Trappels
 
 #Algorithm Trappels: We should use 48 long all #and 4 long to check others bits then find same #varitions but not 5 or more and predict them. #For Quantum Computer.
 
@@ -912,7 +912,7 @@ class encypthion_class:
                                                                                 res1=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination3 and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
 
 
                                                                                 res9="0"+Combination3
@@ -937,7 +937,7 @@ class encypthion_class:
                                                                                 res1=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Calculus and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination6 and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
 
 
                                                                                 res9="0"+Combination6
@@ -959,8 +959,9 @@ class encypthion_class:
                                                                             else:
                                                                                  if Combination9<=(2**46):
                                                                                       Combination9+=1
-                                                                                      if  Combination9!=2**46 and   Combination2==Caculus and long2==blocks and res5==0:
-                                                                                              Combination10=format(Combination9,'046b')
+                                                                                      Combination10=format(Combination9,'046b')
+                                                                                      if  Combination9!=2**46 and   Combination2==Combination10 and long2==blocks and res5==0:
+                                                                                             
                                                                                               res9="0"+Combination10
                                                                                               res5=1
                                                                                               res1=1
