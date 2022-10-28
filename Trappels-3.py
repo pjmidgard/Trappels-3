@@ -348,7 +348,7 @@ class encypthion_class:
                                                                             res1=1
                                                     
             
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination2==Calculus and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination1!=2**46:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination2==Calculus and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Times>=Times2+8 and Times2>=Times3+8 and Times+8<=Times2 and Times2+8<=Times3 and Combination1!=2**46:
                                                                 
                                                                 
                                                                             res9="0"+Combination3
@@ -909,7 +909,7 @@ class encypthion_class:
                                                                                 res1=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination3 and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Caculus==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination3 and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Caculus==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Times>=Times2+8 and Times2>=Times3+8 and Times+8<=Times2 and Times2+8<=Times3 and Combination3!=2**46:
 
 
                                                                                 res9="0"+Combination3
