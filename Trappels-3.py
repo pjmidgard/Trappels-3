@@ -814,7 +814,6 @@ class encypthion_class:
                                                 res5=0
                                                 limit_find=0
                                                 Combination5=0
-                                                Combination5=0
                                                 Combination4=-1
                                                 Combination1=-1
                                                 Combination7=-1
