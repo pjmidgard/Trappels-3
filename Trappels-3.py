@@ -837,6 +837,7 @@ class encypthion_class:
                                                     long2=len(Calculus)
                                                     block+=47
                                                     blocks=47
+                                                    Calculus=Calculus[1:]
                                                     
                                                   
                                                     while Combination5!=1:
