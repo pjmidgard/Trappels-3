@@ -337,7 +337,7 @@ class encypthion_class:
                                                                            res2=1
 
                                                                 
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks  and Times>=Times2+8 and Times2>=Times3+8 and Times+8<=Times2 and Times2+8<=Times3:
                                                                             Combination1+=1
                                                                             Combination3=format(Combination1,'046b')
                                                                 
@@ -898,7 +898,7 @@ class encypthion_class:
                                                                                
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and  Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and  Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks  and Times>=Times2+8 and Times2>=Times3+8 and Times+8<=Times2 and Times2+8<=Times3:
                                                                                 Combination1+=1
                                                                                 Combination3=format(Combination1,'046b')
 
