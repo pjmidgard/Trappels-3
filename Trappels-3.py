@@ -895,6 +895,7 @@ class encypthion_class:
 
                                                                             if Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times  and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2 and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and Times!=Times2 and Times!=Times3 and  res2==0 and long2==blocks:
                                                                                res2=1
+                                                                               
 
 
                                                                             elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and  Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks:
@@ -908,7 +909,7 @@ class encypthion_class:
                                                                                 res1=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination3 and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination3 and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Caculus==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Combination3!=2**46:
 
 
                                                                                 res9="0"+Combination3
@@ -933,12 +934,13 @@ class encypthion_class:
                                                                                 res1=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination6 and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Caculus==Combination6 and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
 
 
                                                                                 res9="0"+Combination6
                                                                                 res5=1
                                                                                 res1=1
+                                                                                
 
                                                                             elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination7<=(2**46) and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]     and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5  and Times!=Times3 and  res4==0 and long2==blocks:
                                                                                 Combination7+=1
