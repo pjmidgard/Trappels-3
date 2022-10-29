@@ -300,6 +300,10 @@ class encypthion_class:
                                                     res3=0
                                                     res4=0
                                                     res6=0
+                                                    res7=0
+                                                    res8=0
+                                                    res9=0
+                                                    res10=0
 
                                                     
                                                     while Times5!=44:
@@ -336,23 +340,23 @@ class encypthion_class:
                                                                            res2=1
 
                                                                 
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks  and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination1<=(2**46) and res8==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks  and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3:
                                                                             Combination1+=1
                                                                             Combination3=format(Combination1,'046b')
                                                                 
-                                                                            res2=1
+                                                                            res8=1
 
                                                                         elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Calculus[Times:Times+4]==Calculus[Times4:Times4+4] and Calculus[Times:Times+4]==Calculus[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
                                                                 
                                                                             res1=1
                                                     
             
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination2==Calculus and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3 and Combination1!=2**46:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination2==Calculus and res7==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3 and Combination1!=2**46:
                                                                 
                                                                 
                                                                             res9="0"+Combination3
                                                                             res5=1
-                                                                            res1=1
+                                                                            res7=1
                                         
                                                                         
                                         
@@ -361,23 +365,23 @@ class encypthion_class:
                                                                             res3=1
 
                                                         
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and res3==0 and Combination4<=(2**46) and Times2!=Times and long2==blocks:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and res9==0 and Combination4<=(2**46) and Times2!=Times and long2==blocks:
                                                                             Combination4+=1
                                                                             Combination6=format(Combination4,'046b')
                                                                 
-                                                                            res3=1
+                                                                            res9=1
 
                                                                         elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Calculus[Times:Times+4]==Calculus[Times4:Times4+4] and Calculus[Times:Times+4]==Calculus[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
                                                                 
                                                                             res1=1
                                                     
             
-                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Combination2==Calculus and Combination1<=(2**46)-1 and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
+                                                                        elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Combination2==Calculus and Combination1<=(2**46)-1 and res10==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
                                                                 
                                                                 
                                                                             res9="0"+Combination6
                                                                             res5=1
-                                                                            res1=1
+                                                                            res10=1
                                         
                                                                         elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Combination7<(2**46) and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Calculus[Times:Times+4]==Calculus[Times4:Times4+4] and Calculus[Times:Times+4]==Calculus[Times5:Times5+4]     and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res4==0 and long2==blocks:
                                                                             Combination7+=1
@@ -865,6 +869,10 @@ class encypthion_class:
                                                         res3=0
                                                         res4=0
                                                         res6=0
+                                                        res7=0
+                                                        res8=0
+                                                        res9=0
+                                                        res10=0
 
 
                                                         while Times5!=44:
@@ -899,23 +907,23 @@ class encypthion_class:
                                                                                
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and  Combination1<=(2**46) and res2==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks  and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and  Combination1<=(2**46) and res10==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks  and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3:
                                                                                 Combination1+=1
                                                                                 Combination3=format(Combination1,'046b')
 
-                                                                                res2=1
+                                                                                res10=1
 
                                                                             elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
 
                                                                                 res1=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination3 and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Caculus==Combination2 and res1==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3 and Combination3!=2**46:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2==Combination3 and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Caculus==Combination2 and res9==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and   long2==blocks and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3 and Combination3!=2**46:
 
 
                                                                                 res9=Combination2
                                                                                 res5=1
-                                                                                res1=1
+                                                                                res9=1
 
 
 
@@ -924,23 +932,23 @@ class encypthion_class:
                                                                                 res3=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and  Combination4<=(2**46) and res3==0 and  Times2!=Times and long2==blocks:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and  Combination4<=(2**46) and res8==0 and  Times2!=Times and long2==blocks:
                                                                                 Combination4+=1
                                                                                 Combination6=format(Combination4,'046b')
 
-                                                                                res3=1
+                                                                                res8=1
 
                                                                             elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5 and  res1==0 and long2==blocks:
 
                                                                                 res1=1
 
 
-                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Calculus==Combination6 and res1==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
+                                                                            elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Calculus==Combination6 and res7==0 and  Times2!=Times and long2==blocks and Combination4!=2**46:
 
 
                                                                                 res9=Combination2
                                                                                 res5=1
-                                                                                res1=1
+                                                                                res7=1
                                                                                 
 
                                                                             elif Combination2[Times:Times+4]==Combination2[Times2:Times2+4] and Combination7<=(2**46) and Combination2[Times:Times+4]==Combination2[Times3:Times3+4] and Combination2[Times:Times+4]==Combination2[Times4:Times4+4] and Combination2[Times:Times+4]==Combination2[Times5:Times5+4]     and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5  and Times!=Times3 and  res4==0 and long2==blocks:
