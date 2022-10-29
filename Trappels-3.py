@@ -335,7 +335,7 @@ class encypthion_class:
                                                                 
                                                                         if Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination1<=(2**46) and res8==0 and  Times2!=Times and Times!=Times2 and Times!=Times3 and long2==blocks  and Times<=Times2+8 and Times2<=Times3+8 and Times+8>=Times2 and Times2+8>=Times3 and Calculus[Times:Times+4]!=Calculus[Times2:Times2+4] and Calculus[Times:Times+4]?=Calculus[Times3:Times3+4] and Calculus[Times:Times+4]!=Calculus[Times4:Times4+4] and Calculus[Times:Times+4]!=Calculus[Times5:Times5+4]   and Times!=Times3 and Times!=Times2 and Times!=Times3 and Times!=Times4 and Times!=Times5 and Times2!=Times and Times2!=Times3 and Times2!=Times4 and Times2!=Times5 and Times3!=Times and Times3!=Times2  and Times3!=Times4 and Times3!=Times5 and Times4!=Times and Times4!=Times2 and Times4!=Times3 and Times3!=Times4 and Times4!=Times5:
                                                                 
-                                                                            res1=1 
+                                                                            
                                                                             Combination1+=1
                                                                             Combination3=format(Combination1,'046b')
                                                                 
