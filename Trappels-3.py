@@ -256,8 +256,7 @@ class encypthion_class:
                                                 Times=-4
                                                 Times2=-4
                                                 Times3=-4
-                                                Times4=-4
-                                                Times5=-4
+                                                
                                                 res1=0
                                                 res2=0
                                                 res3=0
@@ -745,8 +744,7 @@ class encypthion_class:
                                                 Times=-4
                                                 Times2=-4
                                                 Times3=-4
-                                                Times4=-4
-                                                Times5=-4
+                                                
                                                 res1=0
                                                 res2=0
                                                 res3=0
