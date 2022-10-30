@@ -1,3 +1,7 @@
+#Trappels
+
+#Algorithm Trappels: We should use 48 long all #and 4 long to check others bits then find same #varitions but not 5 or more and predict them. #For Quantum Computer.
+
 from time import time
 cvf=0
 import os
@@ -285,8 +289,7 @@ class encypthion_class:
                                                     Times=-4
                                                     Times2=-4
                                                     Times3=-4
-                                                    Times4=-4
-                                                    Times5=-4
+                                                    
                                                         
                                                     Combination+=1
                                                     Combination2=format(Combination,'048b')
@@ -802,8 +805,7 @@ class encypthion_class:
                                                         Times=-4
                                                         Times2=-4
                                                         Times3=-4
-                                                        Times4=-4
-                                                        Times5=-4
+                                                       
 
                                                         Combination+=1
                                                         Combination2=format(Combination,'048b')
