@@ -1,7 +1,3 @@
-#Trappels
-
-#Algorithm Trappels: We should use 48 long all #and 4 long to check others bits then find same #varitions but not 5 or more and predict them. #For Quantum Computer.
-
 from time import time
 cvf=0
 import os
