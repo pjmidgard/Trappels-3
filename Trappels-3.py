@@ -264,14 +264,11 @@ class encypthion_class:
                                                 res5=0
                                                 limit_find=0
                                                 Combination5=0
-                                                Combination4=-1
+                                             
                                                 Combination3=""
-                                                Combination6=""
-                                                Combination8=""
-                                                Combination10=""
+                                                
                                                 Combination1=-1
-                                                Combination7=-1
-                                                Combination9=-1
+                                                
                                                 while Combination5!=1:
                                                     
                                                 
@@ -756,14 +753,11 @@ class encypthion_class:
                                                 res5=0
                                                 limit_find=0
                                                 Combination5=0
-                                                Combination4=-1
+                                               
                                                 Combination1=-1
-                                                Combination7=-1
-                                                Combination9=-1
+                                                
                                                 Combination3=""
-                                                Combination6=""
-                                                Combination8=""
-                                                Combination10=""
+                                              
                                                 blocks=47
                                                 Calculus=size_data3[block:block+1]
                                                 if Calculus[0:1]=="1":
