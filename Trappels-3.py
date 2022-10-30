@@ -1,7 +1,3 @@
-#Trappels
-
-#Algorithm Trappels: We should use 48 long all #and 4 long to check others bits then find same #varitions but not 5 or more and predict them. #For Quantum Computer.
-
 from time import time
 cvf=0
 import os
@@ -292,17 +288,13 @@ class encypthion_class:
                                                     
                                                         
                                                     Combination+=1
+                                                    
                                                     Combination2=format(Combination,'048b')
                                                     
                                                     res1=0
-                                                    res2=0
-                                                    res3=0
-                                                    res4=0
-                                                    res6=0
-                                                    res7=0
                                                     res8=0
-                                                    res9=0
-                                                    res10=0
+                                                  
+                                                  
 
                                                     
                                                     
@@ -808,16 +800,10 @@ class encypthion_class:
                                                        
 
                                                         Combination+=1
+                                                       
                                                         Combination2=format(Combination,'048b')
 
                                                         res1=0
-                                                        res2=0
-                                                        res3=0
-                                                        res4=0
-                                                        res6=0
-                                                        res7=0
-                                                        res8=0
-                                                        res9=0
                                                         res10=0
 
 
