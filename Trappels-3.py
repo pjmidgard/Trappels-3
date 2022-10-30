@@ -306,20 +306,9 @@ class encypthion_class:
                                                     res10=0
 
                                                     
-                                                    while Times5!=44:
-                                                        Times5+=4
-                                                        Times4=-4
-                                                        Times3=-4
-                                                        Times2=-4
-                                                        Times=-4
-
-                                                        while Times4!=44:
-                                                            Times4+=4
-                                                            Times3=-4
-                                                            Times2=-4
-                                                            Times=-4
+                                                    
                                                 
-                                                            while Times3!=44:
+                                                    while Times3!=44:
                                                                 Times3+=4
                                                                 Times2=-4
                                                                 Times=-4
@@ -834,20 +823,9 @@ class encypthion_class:
                                                         res10=0
 
 
-                                                        while Times5!=44:
-                                                            Times5+=4
-                                                            Times4=-4
-                                                            Times3=-4
-                                                            Times2=-4
-                                                            Times=-4
+                                                        
 
-                                                            while Times4!=44:
-                                                                Times4+=4
-                                                                Times3=-4
-                                                                Times2=-4
-                                                                Times=-4
-
-                                                                while Times3!=44:
+                                                        while Times3!=44:
                                                                     Times3+=4
                                                                     Times2=-4
                                                                     Times=-4
